@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PXKJRYTM
 
 [Document2]
-DocumentPath=Amplifier.SchDoc
+DocumentPath=PCM290x.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NRROIYZA
 
 [Document3]
-DocumentPath=..\Lib\Imported\Amplifier_Operational.SchLib
+DocumentPath=VolumeControl.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -98,10 +98,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KOMNYUWC
+DocumentUniqueId=UHDSVCVQ
 
 [Document4]
-DocumentPath=..\Lib\Imported\Device.SchLib
+DocumentPath=..\Lib\PhilsLab\Schematic-Lib-PhilsLab.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -115,7 +115,24 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IZBFKWPW
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=..\Lib\PhilsLab\Footprint-Lib-PhilsLab.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
@@ -1101,9 +1118,6 @@ ParameterName11=Supplier
 ParameterUpdate11=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=
-ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
